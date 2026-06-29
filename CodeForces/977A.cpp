@@ -1,4 +1,4 @@
-// 4A.cpp
+// 977A.cpp
 
 // This file is part of CodeForces
 
@@ -8,7 +8,7 @@ using namespace std;
 int main(){
     int m;
     int n;
-    cin >> m;
+    cin >>
     cin >> n;
     int i=0;
     while(i<n){
