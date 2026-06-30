@@ -7,3 +7,6 @@
 // COUNT OF DIGIT
 int count = (int)(log10(n)+1)
 o(log10(n))
+
+//  SORTING
+// TC = 0(nlogn)
