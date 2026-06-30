@@ -1,0 +1,9 @@
+// GET DIGITS FROM INT
+
+// X%10 (Gives last digit)
+// (trunc(X/10))%10 (Second last digit)
+
+
+// COUNT OF DIGIT
+int count = (int)(log10(n)+1)
+o(log10(n))
