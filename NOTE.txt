@@ -10,3 +10,6 @@ o(log10(n))
 
 //  SORTING
 // TC = 0(nlogn)
+
+// PRECISION
+// cout << setprecision(12) << x/n;
