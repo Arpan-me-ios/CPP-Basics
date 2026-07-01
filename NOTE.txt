@@ -13,3 +13,5 @@ o(log10(n))
 
 // PRECISION
 // cout << setprecision(12) << x/n;
+
+// break; AND continue;
