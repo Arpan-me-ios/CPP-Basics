@@ -1,0 +1,14 @@
+            a = array[i][j];
+            cout << a;
+            if (a == "B" || a == "W" || a == "G")
+            {
+                continue;
+            }
+            else
+            {
+                cout << "#Color";
+                return 0;
+            }
+        }
+    }
+    cout << "#Black&White";
