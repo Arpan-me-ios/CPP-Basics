@@ -1,0 +1,4 @@
+for(int k=0; k<m; k+=1){
+            if (ar[k]!=ar[k+1]){
+                cout << (k+1);
+            }
