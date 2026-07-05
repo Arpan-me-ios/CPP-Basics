@@ -1,0 +1,4 @@
+st.emplace(a[1]);
+        st.emplace(a[2]);
+        st.emplace(a[3]);
+        st.emplace(a[0]);
