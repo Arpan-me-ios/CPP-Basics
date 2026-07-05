@@ -1,4 +1,4 @@
-// Structure.cpp
+// Summation.cpp
 
 // This file is part of basic CPP
 
