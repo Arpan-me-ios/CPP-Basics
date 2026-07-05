@@ -5,18 +5,16 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-
-void print_name(string name,int coun){
-    cout << name;
-    if(coun>5){
+void print_name(i,n){
+    if(i>n){
         return;
     }
-    coun+=1;
-    print_name(name,coun);
+    cout << "Arpan";
+    f(i+1,n);
 }
 
 int main(){
-    string a;
-    int coun=0;
-    print_name(a, coun);
+    int n;
+    cin>>n;
+    f(1,n);
 }
