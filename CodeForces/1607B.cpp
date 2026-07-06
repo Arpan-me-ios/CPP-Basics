@@ -14,7 +14,7 @@ int main()
         long long x0;
         cin >> x0;
         long long s;
-        cin >> s;
+        cin >> s;=-
         long long j = 1;
         while (j <= s)
         {
