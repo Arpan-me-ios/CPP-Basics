@@ -1,6 +1,4 @@
-NO
-YES
-YES
-NO
-YES
-YES
+-205
+15
+-14
+-31
