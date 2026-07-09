@@ -13,47 +13,27 @@ int main()
     cin >> n;
     for (int i = 0; i < n; i += 1)
     {
-        int sum = 0;
+        int sumo = 0;
+        int sume = 0;
         cin >> a >> b;
-        if (a % 2 == 0)
-        {
-            for (int k = 0; k < b - 1; k += 1)
-            {
-                sum += 2;
-            }
-        
-            if ((a - sum) % 2 == 0 && (a - sum) > 0)
-            {
-                cout << "YES" << endl;
-                for (int d = 0; d < b - 1; d += 1)
-                {
-                    cout << 2 << " ";
-                }
-                cout << (a - sum) << endl;
-            }
-            else
-            {
-                cout << "NO" << endl;
-            }}
-        else
-        {
-            for (int j = 0; j < b - 1; j += 1)
-            {
-                sum += 1;
-            }
-            if ((a - sum) % 2 != 0 && (a - sum) > 0)
-            {
-                cout << "YES" << endl;
-                for (int r = 0; r < b - 1; r += 1)
-                {
-                    cout << 1 << " ";
-                }
-                cout << a - sum << endl;
-            }
-            else
-            {
-                cout << "NO" << endl;
-            }
+        for (int k=0; k<b-1; k+=1){
+            sumo+=1;
+            sume+=2;
+        }
+        if (a-sume>0 && (a-sume)%2==0){
+            cout << "YES" << endl;
+            for(int r=0; r<b-1 ; r+=1){
+                cout << 2 << " ";}
+            cout << a-sume << endl;
+        }
+        else if (a-sumo>0 && (a-sumo)%2!=0){
+            cout << "YES" << endl;
+            for(int h=0; h<b-1 ; h+=1){
+                cout << 1 << " ";}
+            cout << a-sumo << endl;
+        }
+        else{
+            cout << "NO" << endl;
         }
     }
 }

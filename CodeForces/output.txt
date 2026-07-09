@@ -4,7 +4,8 @@ YES
 2 2 2 94
 NO
 NO
-NO
+YES
+1 1 1 1 1 1 1 1
 NO
 YES
 1 1 3
