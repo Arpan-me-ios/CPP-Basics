@@ -15,3 +15,7 @@ o(log10(n))
 // cout << setprecision(12) << x/n;
 
 // break; AND continue;
+
+// CEIL FUNCTION 
+// double num1 = 3.5;
+// int result1 = ceil(num1); (result1 = 4)
