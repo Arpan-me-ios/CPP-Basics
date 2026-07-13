@@ -1,4 +1,4 @@
-// 1030A.cpp
+// 2241B.cpp
 
 // This file is part of CodeForces
 
